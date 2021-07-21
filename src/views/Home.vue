@@ -78,7 +78,6 @@
           <router-link to="/about" class="btn-more"
             ><span>VIEW MORE</span><span class="arr-right"></span
           ></router-link>
-          <router-link to="/about">About</router-link>
         </div>
       </div>
     </section>
