@@ -1,21 +1,17 @@
 html {
-  height: 100%;
   scroll-behavior: auto;
   font-size: $font-size-root;
-  overflow-x: hidden;
 }
 
 body {
-  height: 100%;
   font-family: $body-font-family;
   font-weight: $font-weight-normal;
   color: $color-sub;
 }
 .hidden {
-  overflow-y: hidden;
+  overflow: hidden;
 }
 #app {
-  height: auto;
   overflow-x: hidden;
 }
 .header {
@@ -176,6 +172,7 @@ body {
   font-size: 1.4rem;
   font-weight: $font-weight-light;
   color: $color-sub;
+  background: $color-main;
 }
 
 .slide-fade-enter-active {

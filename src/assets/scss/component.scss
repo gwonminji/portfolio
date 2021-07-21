@@ -33,6 +33,7 @@
   }
 }
 .about {
+  background: $color-main;
   @extend %section;
   .inner {
     position: relative;
@@ -365,6 +366,7 @@
   .portfolio {
     .portfolio-wrap {
       margin: 160px 0 0 0;
+      overflow-y: hidden;
       .btn-filter-box {
         position: relative;
         margin: 100px 0;
