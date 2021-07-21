@@ -1,2 +1,24 @@
-# portfolio
-vue를 이용하여 제작한 권민지 개인 웹 포트폴리오입니다.
+# gmj
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

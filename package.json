@@ -1,0 +1,42 @@
+{
+  "name": "gmj",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "core-js": "^3.6.5",
+    "scss-reset": "^1.1.11",
+    "swiper": "^5.3.7",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-images-loaded": "^1.1.2",
+    "vue-masonry-wall": "^0.3.2",
+    "vue-router": "^3.2.0",
+    "vue-scroll-loader": "^2.2.0",
+    "vue-waterfall": "^1.0.6",
+    "vueisotope": "^3.1.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-masonry-css": "^1.0.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

@@ -1,0 +1,99 @@
+/******************************************************************* 
+// 위치 : src/assets/scss/variables.scss // 
+설명 : 프로젝트 전체에 적용되는 변수에 대해 정의함 // 
+주의 : 컴포넌트 개수 만큼 실행되기 때문에 변수에 대해서만 정의해야 함. 
+(실제 CSS에 대한 적용은 _index.scss에 작성) // 
+이 파일은 vue.config.js에 설정되면 됨 
+********************************************************************/
+$body-font-family: "Noto Sans KR", sans-serif;
+$en-font-family: "Lato", sans-serif;
+$border-radius-root: 6px;
+$font-size-root: 10px;
+$font-weight-light: 300;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+
+$color-main: #fff;
+$color-point: #2b00d4;
+$color-sub: #0f0928;
+$color-gray-1: #efeff2;
+$color-gray-2: #d9d8dd;
+
+%m0auto {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+@media screen and (max-width: 1280px) {
+  %m0auto {
+    width: 100%;
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  %m0auto {
+    padding: 0 10px;
+  }
+}
+%section {
+  padding: 120px 0;
+}
+%title {
+  position: relative;
+  padding-left: 40px;
+  font-size: 4rem;
+  color: $color-sub;
+  font-weight: 700;
+  &::before {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    bottom: 10px;
+    content: "";
+    display: inline-block;
+    width: 3px;
+    background: $color-point;
+  }
+}
+@media screen and (max-width: 1280px) {
+  %title {
+    padding-left: 30px;
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  %title {
+    padding-left: 15px;
+    font-size: 2.2rem;
+    &::before {
+      top: 12px;
+      bottom: inherit;
+      height: 8px;
+      width: 8px;
+    }
+  }
+  %section {
+    padding: 60px 0;
+  }
+}
+%fill0 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 0;
+  transition: 0.3s ease-out;
+}
+
+%fill100 {
+  width: 100%;
+  background: $color-point;
+  opacity: 0.2;
+  transition: 0.3s ease-in;
+}
+
+%box-shadow {
+  box-shadow: 8px 40px 1px rgb(96 96 116 / 14%);
+}
