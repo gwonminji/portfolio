@@ -41,7 +41,7 @@
           <p>안녕하세요.</p>
           <p>5년차 웹퍼블리셔 <strong class="point">권민지</strong>입니다.</p>
         </h3>
-        <div class="illust-box" data-aos="zoom-in-up">
+        <div class="illust-box">
           <div class="img-mo">
             <img src="@/assets/images/img_mo.png" alt="모바일 일러스트" />
             <div class="crop">
@@ -94,6 +94,8 @@
           class="btn-more-box"
           data-aos="zoom-in-up"
           data-aos-anchor-placement="center-center"
+          data-aos-duration="500"
+          data-aos-delay="700"
         >
           <!-- <a href="/portfolio" class="btn-more" title="VIEW MORE"
             ><span>VIEW MORE</span><span class="arr-right"></span
@@ -114,7 +116,7 @@
           data-aos="zoom-in"
           data-aos-anchor-placement="center-center"
           data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-delay="1000"
         >
           <span>Let's create</span>
           <span>something together</span>
@@ -122,18 +124,18 @@
         <p
           class="text2"
           data-aos="zoom-in"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
-          data-aos-delay="1000"
+          data-aos-delay="1500"
         >
           Drop me a line!
         </p>
         <ul
           class="my-info"
           data-aos="flip-up"
-          data-aos-anchor-placement="top-center"
+          data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
-          data-aos-delay="1500"
+          data-aos-delay="1800"
         >
           <li><font-awesome-icon icon="mobile-alt" />+82-10.9434.1823</li>
           <li><font-awesome-icon icon="envelope" />blueelf1124@gmail.com</li>

@@ -16,14 +16,14 @@
     <!-- about -->
     <section class="about">
       <div class="inner">
-        <h3 class="title" data-aos="fade-right">저를 소개합니다.</h3>
+        <h3 class="title" data-aos="fade-right" data-aos-duration="500">저를 소개합니다.</h3>
         <!-- profile -->
         <div class="profile-wrap">
           <div class="profile-box">
-            <div class="img-box" data-aos="fade-right">
+            <div class="img-box" data-aos="fade-right" data-aos-duration="1000">
               <img :src="profile.imageUrl" alt="권민지 증명사진">
             </div>
-            <ul class="profile" data-aos="fade-left">
+            <ul class="profile" data-aos="fade-left" data-aos-duration="1000">
               <li><span class="left">이름</span><span class="right">{{profile.name}}</span></li>
               <li><span class="left">생년월일</span><span class="right">{{profile.birth}}</span></li>
               <li><span class="left">거주지</span><span class="right">{{profile.address}}</span></li>
@@ -31,7 +31,7 @@
               <li><span class="left">전화번호</span><span class="right">{{profile.cellphone}}</span></li>
             </ul>
           </div>
-          <div class="text-box" data-aos="zoom-in-down">
+          <div class="text-box" data-aos="zoom-in-down" data-aos-duration="500">
             <p>저는 코드를 통해 UI를 그려내는 일을 좋아합니다.</p><br><br>
             <p>컴포넌트 단위의 유지보수에 최적화 된 마크업과 의미있는 구조의 시멘틱 마크업에 관심이 많으며, CSS와 Javascript를 활용한 동적 모션을 구현하는 것과 사용자 입장에서 더 나은 UI 방향에 대해 고민하곤 합니다.</p><br><br>
             <p>좋아하는 일을 즐기면서 잘하는 것, 제가 꿈꾸는 저의 모습입니다.</p>
@@ -39,19 +39,19 @@
         </div>
         <!-- //profile -->
 
-        <h3 class="title" data-aos="fade-right">경력사항</h3>
+        <h3 class="title" data-aos="fade-right" data-aos-duration="500">경력사항</h3>
         <!-- career -->
         <div class="career-wrap">
           <ul class="career"> 
-            <li data-aos="fade-up" data-aos-anchor-placement="top-center" v-for="career in careers" :key="career.id"><p><span>{{ career.company }}</span><span class="text">{{ career.text}}</span></p><span class="term">{{ career.term }}</span></li>
+            <li data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="500" v-for="career in careers" :key="career.id"><p><span>{{ career.company }}</span><span class="text">{{ career.text}}</span></p><span class="term">{{ career.term }}</span></li>
           </ul>
         </div>
         <!-- //career -->
 
-        <h3 class="title" data-aos="fade-right">제가 제일 잘하는 일을 소개합니다.</h3>
+        <h3 class="title" data-aos="fade-right" data-aos-duration="500">제가 제일 잘하는 일을 소개합니다.</h3>
         <!-- skill -->
         <div class="skill-wrap">
-          <div class="skill-box" v-for="skill in skills" :key="skill.id" data-aos="flip-left">
+          <div class="skill-box" v-for="skill in skills" :key="skill.id" data-aos="flip-left" data-aos-duration="1200">
             <div class="skill">
               <p class="skill-title"><font-awesome-icon icon="check" />{{ skill.title }}</p>
               <p class="skill-text">{{ skill.text }}</p>

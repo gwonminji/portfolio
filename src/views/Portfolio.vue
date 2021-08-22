@@ -16,12 +16,12 @@
     <!-- portfolio -->
     <section class="portfolio">
       <div class="inner">
-        <h3 class="title" data-aos="fade-right">더 많은 저의 작업물을 살펴보세요.</h3>
+        <h3 class="title" data-aos="fade-right" data-aos-duration="500">더 많은 저의 작업물을 살펴보세요.</h3>
         <div class="portfolio-wrap">
-          <div class="btn-filter-box" data-aos="flip-up">
+          <div class="btn-filter-box" data-aos="flip-up" data-aos-duration="700">
             <button v-for="(val, key) in option.getFilterData" :key="val.key" class="btn-filter" :class="[key===filterOption? 'is-checked' : '']" @click="filter(key)" :title="key">#{{key}}</button>
           </div>
-          <isotope class="item-wrap" ref="cpt" :item-selector="'item-box'" :list="projects" :options='option' @filter="filterOption=arguments[0]" v-images-loaded:on.progress="layout" data-aos="zoom-in-up">
+          <isotope class="item-wrap" ref="cpt" :item-selector="'item-box'" :list="projects" :options='option' @filter="filterOption=arguments[0]" v-images-loaded:on.progress="layout" data-aos="zoom-in-up" data-aos-duration="1500">
             <div v-for="proj in projects" :class='[proj.category]' :key="proj.id">
               <div class="img-box">
                 <img :src=proj.imageUrl :alt=proj.name>
