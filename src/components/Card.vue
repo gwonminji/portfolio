@@ -1,6 +1,8 @@
 <template>
+    <!-- <div class="card-wrap" data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="center-center"> -->
     <div class="card-wrap">
-        <div class="card" v-for="project in projects" :key="project.id" data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-center">
+        <div class="card" v-for="project in projects" :key="project.id" data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="center-center">
+        <!-- <div class="card" v-for="project in projects" :key="project.id"> -->
             <div class="img-box">
                 <img :src="project.imageUrl" :alt="project.name">
                 <a :href="project.url" :title="project.hover" target="_blank" class="link">

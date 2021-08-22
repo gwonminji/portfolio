@@ -441,6 +441,9 @@
   .card {
     display: flex;
     margin-bottom: 140px;
+    &:first-child {
+      margin-bottom: 0;
+    }
     .img-box {
       position: relative;
       width: 60%;
