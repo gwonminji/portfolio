@@ -137,7 +137,7 @@
           data-aos-duration="1000"
           data-aos-delay="1800"
         >
-          <li><font-awesome-icon icon="mobile-alt" />+82-10.9434.1823</li>
+          <li><font-awesome-icon icon="mobile-alt" />010.9434.1823</li>
           <li><font-awesome-icon icon="envelope" />blueelf1124@gmail.com</li>
         </ul>
       </div>
